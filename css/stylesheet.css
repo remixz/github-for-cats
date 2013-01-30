@@ -16,6 +16,16 @@ body {
 	padding: 2px;
 }
 
+@media (max-width: 767px) {
+	.contents ul {
+		float: left;
+		padding: 0px;
+	}
+	.contents ul li {
+		text-align: left !important;
+	}
+}
+
 .contents ul li {
 	font-style: italic;
 	text-align: right;
