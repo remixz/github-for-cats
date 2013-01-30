@@ -10,7 +10,7 @@
    </head>
    <body>
       <div id="banner"><a href="https://github.com/remixz/github-for-cats" target="_blank">Fork me on GitHub</a></div>
-      <div class="container">
+      <div class="container" id="top">
          <div class="page-header">
             <h1>
                GitHub For Cats 
@@ -19,14 +19,32 @@
                </small>
             </h1>
          </div>
-         <h3>
+         <div class="contents">
+            <ul>
+               <li class="title"> Table of Contents </li>
+               <li> <a href="#introduction"> Introduction </a> </li>
+               <li> <a href="#running"> Getting Up and Running </a> </li>
+               <li> <a href="#social"> Getting Social </a> </li>
+               <li> <a href="#lay"> The Lay of the Land </a> </li>
+               <li> <a href="#issue"> An Issue </a> </li>
+               <li> <a href="#forks"> Forks For Cats </a> </li>
+               <li> <a href="#pull"> Pull Requests </a> </li>
+               <li> <a href="#create"> Creating a Repository </a> </li>
+               <li> <a href="#adding"> Adding to your Repository </a> </li>
+               <li> <a href="#editing"> Editing your Repository </a> </li>
+               <li> <a href="#conclusion"> Conclusion </a> </li>
+               <li> <a href="#attributions"> Attributions </a> </li>
+               <li> <a href="#credits"> Credits </a> </li>
+            </ul>
+         </div>
+         <h3 id="introduction">
             Introduction:
          </h3>
          <p>
             If you're a cat, you probably haven't heard of GitHub. Maybe your human companion has, but they don't really know how to explain it to you. (Which, as a cat, is extremely frustrating.) GitHub is a website that allows content creators, whether it be via programming, blogging, or issue-reporting, to collaborate together and to learn from each other. It's powered by a "distributed version control system" called git. A "distributed version control system" sounds pretty complicated, but it really isn't. What it really means is that lets you, a cat, manage all of the stuff you have made (like maybe some <a href="http://jsforcats.com" target="_blank">JavaScript</a>?) in one place, and be able to go back in time to see what you did before. It also lets other cats (or maybe humans) see what you've done, and help you out with it. This guide will get you introduced to the world of git and GitHub, and it might even help your poor, misinformed human companion as well!
          </p>
-         <h3>
-            Getting up and running:
+         <h3 id="running">
+            Getting Up and Running:
          </h3>
          <p>
             <em>
@@ -42,14 +60,14 @@
          <p>
             That was pretty easy. You're now logged into your GitHub account, where you can do anything!
          </p>
-         <h3>
-            Getting social
+         <h3 id="social">
+            Getting Social:
          </h3>
          <p>
             Before you tackle the code-y parts of GitHub, a great way to start is to find others' code. One way to find lots of cool projects is by checking out the <a href="https://github.com/explore" target="_blank">Explore</a> page. The projects featured here are all top-notch, so see what interests you! (Probably the shiniest ones.) You can also follow people, to see all of their activity. (Maybe you want to follow <a href="https://github.com/remixz" target="_blank">this sharp fellow?</a>) Finally, once you find a project you like, you can "star" it, which makes code-writers feel really awesome about themselves. It's that same feeling you might get when a new can of tuna is opened. Slightly less fishy-smelling, though.
          </p>
-         <h3>
-            The lay of the land:
+         <h3 id="lay">
+            The Lay of the Land:
          </h3>
          <p>
             GitHub is split into a lot of pages. The first one we can look at is a repository. Let's look at <a href="https://github.com/supercat9000/supercatrepo" target="_blank">supercat9000's repo</a>.
@@ -60,7 +78,7 @@
          <p>
             You'll notice a lot at first. You can see there's one file, called fish.jpg. You'll see it says "remixz authored 2 minutes ago". I had to author this for supercat9000, because even though he is a super-cat, he was too lazy to make the fish. He did create an account though, which is a very super-cat like thing to do. I had to download the fish though, because super-cat fell asleep. Because I am a nice human companion, I think I'm going to help improve his code. This, in essence, is what git is all about!
          </p>
-         <h3>
+         <h3 id="issue">
             An issue:
          </h3>
          <p>
@@ -75,8 +93,8 @@
          <p>
             Another thing I want to do for him is make him a README. I can do this by creating a "fork" of his repository, and then submitting him a "pull request." Let's walk through that now.
          </p>
-         <h3>
-            Forks for cats:
+         <h3 id="forks">
+            Forks For Cats:
          </h3>
          <p>
             Unlike a real fork, this type of fork a cat can use. It's pretty easy to make a fork. Just click the <em>Fork</em> button on the repository, wait a few seconds, and...
@@ -93,7 +111,7 @@
          <p>
             Now that I've done that, I'll just press <em>Commit new file</em> at the bottom, and I've added a README file to my fork.
          </p>
-         <h3>
+         <h3 id="pullrequest">
             Pull Requests:
          </h3>
          <p>
@@ -105,8 +123,8 @@
          <p>
             I've added a title and a description, to tell super-cat what this pull request is. I will hit <em>Send pull request</em>, and now super-cat can choose to merge it in!
          </p>
-         <h3>
-            Creating a repository:
+         <h3 id="create">
+            Creating a Repository:
          </h3>
          <p>
             Now, this has been fine and dandy, looking at other cats' work. However, you want to do your own stuff! Thankfully, you're reading this guide. Let's make a new repository. Press the <em>Create a new repo</em> button on the top of your browser, right next to your name. Enter any name and description you want, and make sure to check <em>Initialize this repository with a README</em>.
@@ -117,8 +135,8 @@
          <p>
             Well done! You now have your own repository. Now, let's add something to it.
          </p>
-         <h3>
-            Adding to your repository:
+         <h3 id="adding">
+            Adding to your Repository:
          </h3>
          <p>
             It turns out that along with being a super-cat, supercat9000 is also a poet. Sort of. He can add his own poems to his new repository, caticalpoems. Press the new file button like you did with the fork earlier, and write up something:
@@ -129,8 +147,8 @@
          <p>
             We'll commit the file, and you now have a poem! 
          </p>
-         <h3>
-            Editing your repository:
+         <h3 id="editing">
+            Editing your Repository:
          </h3>
          <p>
             It turns out supercat9000 made a mistake. He didn't space his lines enough. Thankfully, with the power of GitHub, we can change that. Click on the file, and choose <em>Edit</em>. You now have the same editor again, so make your changes:
@@ -144,7 +162,7 @@
          <p>
             <img alt="Finished poem" src="http://i.imgur.com/zLL7OcI.png" />
          </p>
-         <h3>
+         <h3 id="conclusion">
             Conclusion:
          </h3>
          <p>
@@ -153,7 +171,7 @@
          <p>
             Feel free to try all of these demos on your own repositories, or on supercat9000's. I'm sure he'd appreciate any help he could get. 
          </p>
-         <h3>
+         <h3 id="attributions">
             Attributions:
          </h3>
          <ul>
@@ -167,7 +185,7 @@
                If you work at GitHub, thanks for making such an awesome site.
             </li>
          </ul>
-         <h3>
+         <h3 id="credits">
             Credits:
           </h3>
           <p>
