@@ -14,16 +14,7 @@ body {
 	list-style: none;
 	float: right;
 	padding: 2px;
-}
-
-@media (max-width: 767px) {
-	.contents ul {
-		float: left;
-		padding: 0px;
-	}
-	.contents ul li {
-		text-align: left !important;
-	}
+	margin: 0px;
 }
 
 .contents ul li {
@@ -34,6 +25,17 @@ body {
 .contents ul li.title {
 	font-size: 20px;
 	font-style: normal;
+	font-weight: bold;
+}
+
+@media (max-width: 767px) {
+	.contents ul {
+		float: left;
+		padding: 0px;
+	}
+	.contents ul li {
+		text-align: left !important;
+	}
 }
 
 .bttop {
