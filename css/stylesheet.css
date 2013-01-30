@@ -26,6 +26,20 @@ body {
 	font-style: normal;
 }
 
+.bttop {
+	float: right;
+}
+
+.bttop a {
+	font-style: italic;
+	color: #777;
+}
+
+.bttop a:hover {
+	color: #222;
+	text-decoration: none;
+}
+
 /* CSS-only Fork on GitHub banner
  * From https://gist.github.com/1679040
  */
